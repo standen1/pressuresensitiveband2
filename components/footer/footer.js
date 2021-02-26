@@ -70,6 +70,10 @@ const Footer = styled.footer`
 	padding: 0;
 	padding-top: 25px;
 
+	@media (max-width: 900px) {
+    	max-height: 400px;
+  	}
+
 	div {
 		display: flex;
 		flex-direction: column;
