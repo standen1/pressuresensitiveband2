@@ -26,6 +26,12 @@ export default function footer() {
 			</div>
 
 			<div>
+				<h5>SOCIAL:</h5>
+				<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pressuresensitiveband/">Facebook</a>
+				<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pressuresensitiveband/">Instagram</a>
+			</div>
+			
+			<div>
 				<h5>LEGAL:</h5>
 				<Link href="/privacy-policy" >
 					<a>Privacy Policy</a>
@@ -41,12 +47,6 @@ export default function footer() {
 				<a target="_blank" rel="noopener noreferrer" href="https://discodeathbots.com/">Disco Death Bots</a>
 				<a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/fugarwe">Fugarwe</a>
 
-			</div>
-
-			<div>
-				<h5>SOCIAL:</h5>
-				<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pressuresensitiveband/">Facebook</a>
-				<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pressuresensitiveband/">Instagram</a>
 			</div>
 
 		</Footer>
