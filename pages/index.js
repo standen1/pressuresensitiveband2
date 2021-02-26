@@ -1,65 +1,68 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styled from 'styled-components';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Pressure Sensitive : Music</title>
+        <meta name="description" 
+              content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
+
+        <meta property="og:title" content="Pressure Sensitive" />
+        <meta property="og:url" content="http://www.pressuresensitiveband.com/inex.htm" />
+        <meta property="og:image" content="http://pressuresensitiveband.com//protest.jpg" />
+        <meta property="og:description" content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
+
+        <meta itemprop="name" content="Pressure Sensitive" />
+        <meta itemprop="description" content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
+        <meta itemprop="image" content="http://pressuresensitiveband.com//protest.jpg" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+      <Main>
+        <Image
+        src="/../public/images/protest.jpg"
+        alt="People in protest during BLM movement."
+        width={650}
+        height={433.6}
+      />
+      <h3>Pressure Sensitive releases new album "Agent Orange" on March 27, 2020, featuring
+      single "Right Supremacy."</h3>
+      <h5>March 27, 2020</h5>
+      <p>Pressure Sensitive have released their debut album titled "Agent Orange" on March 27, 2020.  The album is self-released 
+        through <a target="_blank" rel="noopener noreferrer" href="https://pressuresensitive.bandcamp.com/">BandCamp</a>.  
+        Due to the COVID-19 pandemic and the impact it has had on so many people, the band have set the price 
+        as pay-what-you-can.  This way, individuals who are struggling financially can have a listen without having to 
+        break the bank.</p>
+      <p>While a couple of songs from the album had been written just after the 2016 U.S. Presidential Election, the bulk of the
+        album was written over the summer of 2019 in Denver, Colorado.  It features themes surrounding the political climate
+        in the United States at the time and its effects on normal, everyday people.  The artork for the album was created by 
+        James Keenan of <a target="_blank" rel="noopener noreferrer" href="https://www.keenanarts.com/">Keenan Arts</a>, 
+        a graphic design artist and painter based out of Laguna Beach, California.</p>
+      <p>The first single from the album, titled "Right Supremacy," is available on all major online streaming services 
+      and retailers.  If you would like to listen to the full album, it is currently only available on 
+      <a target="_blank" rel="noopener noreferrer" href="https://pressuresensitive.bandcamp.com/album/agent-orange"> BandCamp </a> 
+      but will be released on all major platforms in 2021.</p>
+      </Main>
+    </>
   )
 }
+
+const Main = styled.div`
+  max-width: 650px;
+  box-size: border-box;
+  padding: 10px;
+
+  a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: 0.8;
+    transition: color 0.3s linear;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: #702963;
+  }
+  
+`;

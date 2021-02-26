@@ -1,0 +1,42 @@
+.Main form {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+.Main form label {
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+.Main form input {
+	width: 300px;
+	height: 35px;
+	font-size: 1.2em;
+	font-family: inherit;
+	margin: 5px 0 30px;
+}
+
+.Main form textarea {
+	width: 350px;
+	height: 200px;
+	font-size: 1.2em;
+	font-family: inherit;
+	margin: 5px 0 30px;
+}
+
+.Main form button {
+	background-color: #2e2e2e;
+	color: #fff;
+	width: 200px;
+	height: 30px;
+	font-family: inherit;
+	font-size: 1.3em;
+	border-radius: 25px;
+	transition: background-color 0.3s linear;
+}
+
+.Main form button:hover {
+	background-color: #702963;
+	cursor: pointer;
+}
