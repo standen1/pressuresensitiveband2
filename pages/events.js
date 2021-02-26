@@ -21,8 +21,8 @@ export default function Events() {
 	    </Head>
 		<Div>
 			<Image
-		        src="/../public/seanLive.jpg"
-		        alt="Protest"
+		        src="/seanLive.jpg"
+		        alt="Sean performing live"
 		        width={650}
 		        height={500}
 		      />
