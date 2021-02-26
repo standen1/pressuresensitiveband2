@@ -70,8 +70,8 @@ const Footer = styled.footer`
 	padding: 0;
 	padding-top: 25px;
 
-	@media (max-width: 900px) {
-    	max-height: 400px;
+	@media (max-width: 600px) {
+    	height: 500px;
   	}
 
 	div {
