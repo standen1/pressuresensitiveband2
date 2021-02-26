@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: 'Courier Prime', monospace;
   color: #2e2e2e;
-  /*background: url('../public/images/background.jpg'); */
+  scroll-behavior: smooth;
 }
 
 a {
