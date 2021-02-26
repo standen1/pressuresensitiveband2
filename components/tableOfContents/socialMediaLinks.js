@@ -6,7 +6,7 @@ export default function socialMediaLinks() {
 	  <Social>
 	  	<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pressuresensitiveband/">
 	  		<Image
-	  			src="/../public/static/images/facebook-icon.png"
+	  			src="/../public/facebook-icon.png"
         		alt="Facebook"
 	  			width={65}
 	  			height={65}
@@ -17,7 +17,7 @@ export default function socialMediaLinks() {
 	  	</a>
 	  	<a target="_blank" rel="noopener noreferrer" href="https://pressuresensitive.bandcamp.com/">
 	  		<Image
-	  			src="/../public/static/images/bandcamp-icon.png"
+	  			src="/../public/bandcamp-icon.png"
         		alt="Bandcamp"
 	  			width={65}
 	  			height={65}

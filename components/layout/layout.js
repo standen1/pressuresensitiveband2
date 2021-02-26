@@ -85,13 +85,7 @@ const Div = styled.div`
 		grid-column-end: span 2;
 		display: flex;
 		flex-direction: column;
-		margin-bottom: 60px;
-	}
-
-	@media (max-width: 900px) {
-		div.pageContent {
-			margin: 0 auto 60px;
-		}
+		margin: 0 auto 60px;
 	}
 
 	div.sidebar {

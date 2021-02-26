@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <Main>
         <Image
-        src="/../public/static/images/protest.jpg"
+        src="/../public/protest.jpg"
         alt="People in protest during BLM movement."
         width={650}
         height={433.6}
