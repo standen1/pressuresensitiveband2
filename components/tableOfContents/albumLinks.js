@@ -6,7 +6,7 @@ export default function albumLinks() {
 	  <Links>
 	  	<a target="_blank" rel="noopener noreferrer" href="https://pressuresensitive.bandcamp.com/album/agent-orange">
 	  		<Image
-	  			src="/../public/images/agent-orange.jpg"
+	  			src="/../public/static/images/agent-orange.jpg"
         		alt="Agent Orange Album Cover Artwork"
 	  			width={250}
 	  			height={250}
@@ -15,7 +15,7 @@ export default function albumLinks() {
 	  	</a>
 	  	<a target="_blank" rel="noopener noreferrer" href="https://pressuresensitive.bandcamp.com/track/right-supremacy">
 	  		<Image
-	  			src="/../public/images/right-supremacy.jpg"
+	  			src="/../public/static/images/right-supremacy.jpg"
         		alt="Right Supremacy Single Artwork"
 	  			width={250}
 	  			height={250}

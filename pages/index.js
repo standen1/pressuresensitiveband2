@@ -11,7 +11,7 @@ export default function Home() {
               content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
 
         <meta property="og:title" content="Pressure Sensitive" />
-        <meta property="og:url" content="http://www.pressuresensitiveband.com/inex.htm" />
+        <meta property="og:url" content="http://www.pressuresensitiveband.com/index.htm" />
         <meta property="og:image" content="http://pressuresensitiveband.com//protest.jpg" />
         <meta property="og:description" content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
 
@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <Main>
         <Image
-        src="/../public/images/protest.jpg"
+        src="/../public/static/images/protest.jpg"
         alt="People in protest during BLM movement."
         width={650}
         height={433.6}
