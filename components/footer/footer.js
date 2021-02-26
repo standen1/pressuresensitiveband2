@@ -54,7 +54,6 @@ export default function footer() {
 }
 
 const Footer = styled.footer`
-	display: grid;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -67,6 +66,8 @@ const Footer = styled.footer`
 	background-color: #2e2e2e;
 	color: #fff;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 	padding-top: 25px;
 
 	div {
