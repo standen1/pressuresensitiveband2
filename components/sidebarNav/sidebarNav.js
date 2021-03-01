@@ -30,6 +30,9 @@ export default function SidebarNav(props) {
         color: #fff;
         text-decoration: none;
         transition: color 0.3s linear;
+        border: none;
+        list-style-type: none;
+        outline: none;
       }
 
       a:hover {

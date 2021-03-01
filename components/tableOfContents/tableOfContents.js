@@ -55,6 +55,9 @@ const Menu = styled.div`
     font-weight: 500;
     margin: 5px 0 5px 0;
     transition: all 0.3s linear;
+    border: none;
+    list-style-type: none;
+    outline: none;
   }
 
   a:hover {
