@@ -80,4 +80,24 @@ const Div = styled.div`
 		cursor: pointer;
 		color: #702963;
 	}
+
+	@media (max-width: 600px) {
+		max-width: 100%;
+
+		h1 {
+			font-size: 2em;
+		}
+
+		h5 {
+			font-size: 1.2em;
+		}
+
+		p {
+			font-size: 1em;
+		}
+
+		a {
+			font-size: 1.1em;
+		}
+	}
 `;
