@@ -28,7 +28,7 @@ export default function footer() {
 			<div>
 				<h5>SOCIAL:</h5>
 				<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/pressuresensitiveband/">Facebook</a>
-				<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pressuresensitiveband/">Instagram</a>
+				<a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/pressuresensitiveband/">Instagram</a>
 			</div>
 			
 			<div>
