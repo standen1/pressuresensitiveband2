@@ -37,8 +37,8 @@ export default function credits() {
 			<div>
 				<h5>Images:</h5>
 				<p>"Crowd of Protesters Holding Signs and Kneeling" by Life Matters.</p>
-				<p>Courtesy of <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.pexels.com/@life-matters-3043471">Life Matters </a>
-				  and <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.pexels.com/">Pexels</a>.</p>
+				<p>Courtesy of Life Matters 
+				  and Pexels.</p>
 				<p>Source: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.pexels.com/photo/crowd-of-protesters-holding-signs-and-kneeling-4614149/">
 					https://www.pexels.com/photo/crowd-of-protesters-holding-signs-and-kneeling-4614149/</a></p>
 			</div>
