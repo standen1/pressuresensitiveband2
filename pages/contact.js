@@ -1,12 +1,14 @@
-import Head from 'next/head';
+//import Head from 'next/head';
 import styled from 'styled-components';
 
+import MetaInfo from '../components/metaInfo/metaInfo';
 import ContactForm from '../components/contactForm/contactForm';
 
 export default function events() {
 	return (
 		<>
-		<Head>
+		{
+		/*<Head>
 	    	<title>Pressure Sensitive : Contact</title>
 	    	<meta name="description" 
               content="For booking or any other inquiries, contact Pressure Sensitive." />
@@ -19,7 +21,12 @@ export default function events() {
 	        <meta itemprop="name" content="Pressure Sensitive" />
 	        <meta itemprop="description" content="For booking or any other inquiries, contact Pressure Sensitive." />
 	        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
-	    </Head>
+	    </Head> */
+		}
+		<MetaInfo 
+	        title="Pressure Sensitive | Contact"
+	        desc="For booking or any other inquiries, contact Pressure Sensitive."
+	        canonical="contact" />
 		<Div>
 			<h1>Contact</h1>
 			<ContactForm />

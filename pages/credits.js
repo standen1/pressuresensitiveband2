@@ -1,10 +1,13 @@
-import Head from 'next/head';
+//import Head from 'next/head';
 import styled from 'styled-components';
+
+import MetaInfo from '../components/metaInfo/metaInfo';
 
 export default function credits() {
 	return (
 		<>
-		<Head>
+		{
+		/*<Head>
 	    	<title>Pressure Sensitive : Contact</title>
 	    	<meta name="description" 
               content="List of credits and links in relation to Pressure Sensitive Band and affiliates." />
@@ -17,7 +20,12 @@ export default function credits() {
 	        <meta itemprop="name" content="Pressure Sensitive" />
 	        <meta itemprop="description" content="List of credits and links in relation to Pressure Sensitive Band and affiliates." />
 	        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
-	    </Head>
+	    </Head> */
+	}
+	    <MetaInfo 
+	        title="Pressure Sensitive | Credits"
+	        desc="List of credits and links in relation to Pressure Sensitive Band and affiliates."
+	        canonical="credits" />
 		<Div>
 			<h1>Credits</h1>
 			<div>

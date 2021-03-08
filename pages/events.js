@@ -1,11 +1,12 @@
-import Head from 'next/head';
+//import Head from 'next/head';
 import styled from 'styled-components';
 import Image from 'next/image';
 
 export default function Events() {
 	return (
 		<>
-		<Head>
+		{
+		/* <Head>
 	        <title>Pressure Sensitive : Events</title> 
 	        <meta name="description" 
               content="Live Music and Events calendar for Pressure Sensitive Band." /> 
@@ -18,7 +19,12 @@ export default function Events() {
 	        <meta itemprop="name" content="Pressure Sensitive" />
 	        <meta itemprop="description" content="Live Music and Events calendar for Pressure Sensitive Band." />
 	        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
-	    </Head>
+	    </Head> */
+	}
+	    <MetaInfo 
+	        title="Pressure Sensitive | Events"
+	        desc="Live Music and Events calendar for Pressure Sensitive Band."
+	        canonical="events" />
 		<Div>
 			<Image
 		        src="/seanLive.jpg"

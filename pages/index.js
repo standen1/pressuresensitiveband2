@@ -1,11 +1,14 @@
-import Head from 'next/head';
+//import Head from 'next/head';
 import Image from 'next/image';
 import styled from 'styled-components';
+
+import MetaInfo from '../components/metaInfo/metaInfo';
 
 export default function Home() {
   return (
     <>
-      <Head>
+      {
+        /*<Head>
         <title>Pressure Sensitive : Music</title>
         <meta name="description" 
               content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
@@ -17,8 +20,13 @@ export default function Home() {
 
         <meta itemprop="name" content="Pressure Sensitive" />
         <meta itemprop="description" content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
-        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
-      </Head>
+        <meta itemprop="image" content={"/protest.jpg"} />
+      </Head> */
+    }
+      <MetaInfo 
+        title="Pressure Sensitive | Music"
+        desc="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado."
+        canonical="" />
       <Main>
         <Image
         src="/protest.jpg"
