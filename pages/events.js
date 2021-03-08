@@ -2,6 +2,8 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 
+import MetaInfo from '../components/metaInfo/metaInfo';
+
 export default function Events() {
 	return (
 		<>
