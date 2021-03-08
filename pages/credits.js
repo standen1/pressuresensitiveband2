@@ -16,7 +16,7 @@ export default function credits() {
 
 	        <meta itemprop="name" content="Pressure Sensitive" />
 	        <meta itemprop="description" content="List of credits and links in relation to Pressure Sensitive Band and affiliates." />
-	        <meta itemprop="image" content="http://pressuresensitiveband.com//protest.jpg" />
+	        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
 	    </Head>
 		<Div>
 			<h1>Credits</h1>

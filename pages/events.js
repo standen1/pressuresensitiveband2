@@ -17,7 +17,7 @@ export default function Events() {
 
 	        <meta itemprop="name" content="Pressure Sensitive" />
 	        <meta itemprop="description" content="Live Music and Events calendar for Pressure Sensitive Band." />
-	        <meta itemprop="image" content="http://pressuresensitiveband.com//protest.jpg" />
+	        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
 	    </Head>
 		<Div>
 			<Image

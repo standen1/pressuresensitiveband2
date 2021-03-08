@@ -18,7 +18,7 @@ export default function events() {
 
 	        <meta itemprop="name" content="Pressure Sensitive" />
 	        <meta itemprop="description" content="For booking or any other inquiries, contact Pressure Sensitive." />
-	        <meta itemprop="image" content="http://pressuresensitiveband.com//protest.jpg" />
+	        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
 	    </Head>
 		<Div>
 			<h1>Contact</h1>

@@ -17,7 +17,7 @@ export default function Home() {
 
         <meta itemprop="name" content="Pressure Sensitive" />
         <meta itemprop="description" content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
-        <meta itemprop="image" content="http://pressuresensitiveband.com//protest.jpg" />
+        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
       </Head>
       <Main>
         <Image
