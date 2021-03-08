@@ -6,22 +6,6 @@ import MetaInfo from '../components/metaInfo/metaInfo';
 export default function credits() {
 	return (
 		<>
-		{
-		/*<Head>
-	    	<title>Pressure Sensitive : Contact</title>
-	    	<meta name="description" 
-              content="List of credits and links in relation to Pressure Sensitive Band and affiliates." />
-
-            <meta property="og:title" content="Pressure Sensitive" />
-	        <meta property="og:url" content="http://www.pressuresensitiveband.com/credits.htm" />
-	        <meta property="og:image" content="http://pressuresensitiveband.com/protest.jpg" />
-	        <meta property="og:description" content="List of credits and links in relation to Pressure Sensitive Band and affiliates." />
-
-	        <meta itemprop="name" content="Pressure Sensitive" />
-	        <meta itemprop="description" content="List of credits and links in relation to Pressure Sensitive Band and affiliates." />
-	        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
-	    </Head> */
-	}
 	    <MetaInfo 
 	        title="Pressure Sensitive | Credits"
 	        desc="List of credits and links in relation to Pressure Sensitive Band and affiliates."

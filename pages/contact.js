@@ -7,22 +7,6 @@ import ContactForm from '../components/contactForm/contactForm';
 export default function events() {
 	return (
 		<>
-		{
-		/*<Head>
-	    	<title>Pressure Sensitive : Contact</title>
-	    	<meta name="description" 
-              content="For booking or any other inquiries, contact Pressure Sensitive." />
-
-            <meta property="og:title" content="Pressure Sensitive" />
-	        <meta property="og:url" content="http://www.pressuresensitiveband.com/contact.htm" />
-	        <meta property="og:image" content="http://pressuresensitiveband.com/protest.jpg" />
-	        <meta property="og:description" content="For booking or any other inquiries, contact Pressure Sensitive." />
-
-	        <meta itemprop="name" content="Pressure Sensitive" />
-	        <meta itemprop="description" content="For booking or any other inquiries, contact Pressure Sensitive." />
-	        <meta itemprop="image" content="http://pressuresensitiveband.com/protest.jpg" />
-	    </Head> */
-		}
 		<MetaInfo 
 	        title="Pressure Sensitive | Contact"
 	        desc="For booking or any other inquiries, contact Pressure Sensitive."
