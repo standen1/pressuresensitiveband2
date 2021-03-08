@@ -12,7 +12,7 @@ export default function Home() {
 
         <meta property="og:title" content="Pressure Sensitive" />
         <meta property="og:url" content="http://www.pressuresensitiveband.com/index.htm" />
-        <meta property="og:image" content="http://pressuresensitiveband.com//protest.jpg" />
+        <meta property="og:image" content="http://pressuresensitiveband.com/protest.jpg" />
         <meta property="og:description" content="Pressure Sensitive are a hard rock band based out of San Diego, California and Denver, Colorado." />
 
         <meta itemprop="name" content="Pressure Sensitive" />

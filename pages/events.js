@@ -12,7 +12,7 @@ export default function Events() {
 
             <meta property="og:title" content="Pressure Sensitive" />
 	        <meta property="og:url" content="http://www.pressuresensitiveband.com/events.htm" />
-	        <meta property="og:image" content="http://pressuresensitiveband.com//protest.jpg" />
+	        <meta property="og:image" content="http://pressuresensitiveband.com/protest.jpg" />
 	        <meta property="og:description" content="Live Music and Events calendar for Pressure Sensitive Band." />
 
 	        <meta itemprop="name" content="Pressure Sensitive" />

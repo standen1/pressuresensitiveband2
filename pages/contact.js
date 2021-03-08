@@ -13,7 +13,7 @@ export default function events() {
 
             <meta property="og:title" content="Pressure Sensitive" />
 	        <meta property="og:url" content="http://www.pressuresensitiveband.com/contact.htm" />
-	        <meta property="og:image" content="http://pressuresensitiveband.com//protest.jpg" />
+	        <meta property="og:image" content="http://pressuresensitiveband.com/protest.jpg" />
 	        <meta property="og:description" content="For booking or any other inquiries, contact Pressure Sensitive." />
 
 	        <meta itemprop="name" content="Pressure Sensitive" />
