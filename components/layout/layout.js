@@ -75,6 +75,8 @@ const useMediaQuery = (width) => {
 const Div = styled.div`
 	display: grid;
 	grid template columns: 725px 1fr;
+	max-width: 1200px;
+	margin: 0 auto;
 
 	@media (max-width: 900px) {
     	display: flex;
